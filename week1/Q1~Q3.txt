@@ -1,0 +1,27 @@
+Q1.
+	a. correct 
+		不一定需要宣告型態,Kotlin會自動判斷為整數型態
+	b. wrong
+		宣告為整數型態,但是給的值卻不是整數,應該要宣告為Double型態
+	c. correct
+		不一定需要宣告型態,Kotlin會自動判斷為字串型態
+	d. wrong
+		Kotlin default不能有null值,要在String後面加個?代表可能是null值才行
+	e. correct
+		加個?代表有可能是null值,但也可以不是
+	f. wrong
+		因為後面listOf()內的值是null,所以前面的型態宣告要變成List<String?>?才行
+	g. correct
+		宣告為List<String?>?代表這個List物件以及List內的字串值可能為null值
+	h. wrong
+		因為list的型態宣告為可為空值的,所以這邊list.size要改成list?.size或是list!!.size才行
+	i. correct
+		因為list的型態宣告為可為空值的,所以這邊list?.size是正確的
+		
+Q2.
+	Answer is c.
+		因為message總共的長度是39(含空白字元),所以會print Your grace.然後就會跳出
+
+Q3.
+	Answer is d.
+		因為顯示的值是1000的0次方到1000的5次方,所以要選c,是用到Lambda表達式it
