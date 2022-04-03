@@ -1,0 +1,45 @@
+Q1.
+Inheritance是繼承，用於類別上。
+如果要讓類別可以被繼承，要在類別前面加上open。
+
+Q2.
+可以用splitString.split("設定分隔的符號")
+sample code:
+fun main() {
+    val splitString = "This-is-a-split-example"
+    val cmds = splitString.split("-")
+    for (cmd in cmds)
+        println(cmd)
+}
+
+Q3.
+HashMap<K,V>
+sample code:
+fun main() {
+    val hashMap = HashMap<String,Int>()
+    hashMap.set("1",5)
+    hashMap.set("2",6)
+    hashMap.set("3",7)
+    hashMap.set("4",8)
+
+    for (hash in hashMap)
+        println(hash)
+}
+
+Q4.
+都是實現了List的class，但是底層的實現不同
+ArrayList是基於動態數組的數據結構
+在新增和刪除元素時，效率較低
+但在尋訪元素時，效率較高
+LinkedList是基於鏈表的數據結構
+在新增和刪除元素時，效率較高
+但在尋訪元素時，效率較低
+
+Q5.
+Byte,Short,Int,Long
+Float,Double
+
+Q6.
+2147483647~-2147483648
+用Long
+
