@@ -1,0 +1,36 @@
+Q1.
+Encapsulation 封裝
+可以隱藏不須讓外部知道的資訊
+限制外部的訪問，降低錯誤的產生
+並控制外部的存取範圍
+
+Q2.
+enum 列舉
+當我們想提供一組具名的常數時可以使用
+
+
+Q3.
+enum class Color {
+	YELLOW,GREEN,RED
+	}
+fun main (args : Array<String>) {
+	println(Color.YELLOW.name)
+	println(Color.GREEN.ordinal)
+}
+Q4.
+LinearLayout 線性佈局
+可以分為水平或是垂直
+每一列(行)都只能存在一個元件
+
+Relativelayout 相對佈局
+使用元件的id來設定元件相對位置
+
+Q5.
+ConstraintLayout 約束佈局
+綜合了LinearLayout和Relativelayout的優點
+對於很複雜的佈局也可以輕鬆的實現
+可以輕鬆的將元件放入Design裡
+並透過設定與畫面或是元件間距離
+快速地做到定位的功能
+
+
