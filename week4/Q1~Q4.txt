@@ -1,0 +1,27 @@
+Q1.
+Polymorphism 多型
+多型的設計特性能夠簡化程式碼結構
+透過多型，便可在一組類別裡複用個性化函數
+
+Q2.
+onCreate():當第一次啟動app用來初始化時
+
+onStart():將activity頁面變得可見時
+
+onResume():當app持續使用並在焦點時
+
+onPause():當app離開焦點但一樣在螢幕上時
+
+onStop():當app變得不可見時
+
+onDestroy():當app終止時
+
+Q3.
+Android Jetpack
+是一套庫、工具和指南，
+可幫助開發者減少編寫重複樣板code和標準化
+
+Q4.
+Coroutines 協程
+當我們需要優雅且高效的處理長時間的任務時可以使用，
+可以異步執行、不阻塞主或UI線程
